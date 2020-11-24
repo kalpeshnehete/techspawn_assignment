@@ -31,6 +31,9 @@ def falsepattern(n):
             print("*",end=" ")
         print()
 
+
+## Enter two nos to check wheather first no is greater than second ## 
+        
 a=int(input("Enter First no : "))
 b=int(input("Enter Second no : "))
 

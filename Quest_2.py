@@ -10,5 +10,5 @@ Your company name is: techspawn """
 
 import re
 email = input("Enter email id : ")
-name=re.findall(r'\w+[.]', email)[0][:-1]
+name=re.findall(r"\@(.*?)\.", email)[0]
 print("Name of the company is : ",name.capitalize())
